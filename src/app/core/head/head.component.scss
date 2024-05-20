@@ -1,0 +1,40 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0 70px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.contacts_header {
+    display: inline;
+    color: #000070;
+    font-weight: 700;
+    font-size: 32px;
+    justify-content: start;
+
+}
+
+.contacts_count {
+    color: #8F8F8F80;
+    font-weight: 400;
+    margin-left: 8px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.search {
+    display: flex;
+    font-size: 16px;
+    height: 20px;
+}
+
+.search_text {
+    margin-left: 8px;
+    color: #8F8F8F80;
+}
+
