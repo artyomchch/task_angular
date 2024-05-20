@@ -1,0 +1,32 @@
+.contacts_fragment {
+    height: calc(100% - 144px);
+    // margin-top: 227px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts_info {
+    text-align: center;
+}
+
+.no_contacts {
+    font-size: 20px;
+    margin-top: 8px;
+    font-weight: 400;
+}
+
+.contact_button button {
+    width: 250px;
+    padding: 8px;
+    background-color: #5555A8;
+    color: white;
+    border-radius: 10px;
+    border-color: #5555A8;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.mt_12 {
+    margin-top: 12px;
+}

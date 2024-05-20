@@ -1,0 +1,92 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0 70px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.contacts_header {
+    display: inline;
+    color: #000070;
+    font-weight: 700;
+    font-size: 32px;
+    justify-content: start;
+
+}
+
+.contacts_count {
+    color: #8F8F8F80;
+    font-weight: 400;
+    margin-left: 8px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.search {
+    display: flex;
+    font-size: 16px;
+    height: 20px;
+}
+
+.search_text {
+    margin-left: 8px;
+    color: #8F8F8F80;
+}
+
+
+.contact_button button {
+    width: 234px;
+    height: 38px;
+    padding: 8px;
+    margin-top: 7px;
+    margin-bottom: 8px;
+    background-color: #5555A8;
+    color: white;
+    border-radius: 10px;
+    border-color: #5555A8;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.tabs_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 70px;
+}
+
+.tabs_data {
+    display: flexbox;
+    justify-content: space-between;
+}
+
+table {
+    width: 100%;
+    color: #000070;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #9F9F9F;
+}
+
+th {
+    padding: 12px 24px;
+    text-align: left;
+}
+
+td {
+    padding: 12px 24px;
+    
+}
+
+
+.contacts_table {
+    padding: 32px 70px;
+    //height: calc(100% -144px);
+}
